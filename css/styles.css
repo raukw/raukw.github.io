@@ -1,0 +1,84 @@
+h1, h2, #navLogo {
+  font-family: fairplex-narrow,serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50pt;
+  color: rgb(237,28,36);
+}
+
+h2{
+  font-size: 45pt;
+}
+
+h3, p, nav, form {
+  font-family: lithos-pro,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#navLogo {
+  font-size: 20pt;
+}
+
+#active {
+  border-bottom: 2px solid;
+  border-color: rgb(237, 28, 36);
+  font-weight: bold;
+}
+
+.imgHeaderContainer {
+  width: 100%;
+  position:relative;
+}
+
+.imgHeaderBackground {
+  width: 100%;
+}
+
+.imgHeaderText {
+  position: absolute;
+  text-align: left;
+  top: 25%;
+  left: 5%;
+  color: white;
+}
+
+.imgHeaderContainer h3 {
+  top: 37%;
+  font-style: bold;
+}
+
+.pageSection {
+  border: solid 4px;
+  border-color: rgb(237, 28, 36);
+  border-radius: 5%;
+  margin: 15px;
+  margin-left: 10%;
+  padding: 10px;
+}
+
+.containerContent {
+  padding: 17px;
+}
+
+#visitUsContainer, #connectContainer {
+  background-color: green;
+}
+
+#visitUsContainer h2, #visitUsContainer p,
+#connectContainer h2, #connectContainer p {
+  color: white;
+}
+
+#connectContainer a {
+  color: rgb(151,247,247);
+}
+
+#connectContainer a:visited {
+  color: rgb();
+}
+
+section img {
+  max-width:100%;
+max-height:100%;
+}
