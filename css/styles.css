@@ -80,5 +80,29 @@ h3, p, nav, form {
 
 section img {
   max-width:100%;
-max-height:100%;
+  max-height:100%;
+}
+
+@media all and (max-width: 1200px)
+{
+  .imgHeaderContainer h3 {
+    top: 40%;
+    font-style: bold;
+  }
+}
+
+@media all and (max-width: 980px)
+{
+  .imgHeaderContainer h3 {
+    top: 45%;
+    font-style: bold;
+  }
+}
+
+@media all and (max-width: 767px)
+{
+  .imgHeaderContainer h3 {
+    top: 50%;
+    font-style: bold;
+  }
 }
